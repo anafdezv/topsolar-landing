@@ -8,7 +8,7 @@ import { TryingSection } from '@/components/TryingSection';
 
 export default function Home() {
   return (
-    <div className='w-screen h-screen'>
+    <main className='w-screen h-screen'>
       <Header />
       <CTA />
       <SummarySection />
@@ -16,6 +16,6 @@ export default function Home() {
       <FutureSection />
       <TryingSection />
       <Footer />
-    </div>
+    </main>
   );
 }

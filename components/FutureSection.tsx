@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/Button';
+import Link from 'next/link';
 import { useState } from 'react';
 
 export const FutureSection = () => {
@@ -32,8 +33,9 @@ export const FutureSection = () => {
           </button>
         )}
 
+        <Link href="get-quote">  
         <Button className='w-full sm:w-fit md:ml-auto'>Get your quote</Button>
-      </span>
+        </Link></span>
     </section>
   );
 };

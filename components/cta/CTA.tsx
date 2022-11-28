@@ -1,5 +1,6 @@
 import { CTAExplore } from '@/components/cta/CTAExplore';
 import { Button } from '@/components/ui';
+import Link from 'next/link';
 
 export const CTA = (): JSX.Element => {
   return (
@@ -13,7 +14,9 @@ export const CTA = (): JSX.Element => {
           </h1>
           <h2 className='uppercase text-xl sm:text-3xl text-gray-100 text-center  md:text-right'>Now up to 75% off</h2>
         </span>
-        <Button>Get your quote</Button>
+        <Link href="get-quote">
+          <Button>Get your quote</Button>
+        </Link>
       </section>
       <CTAExplore />
     </span>

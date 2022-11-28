@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/Button';
+import Link from 'next/link';
 
 export const TryingSection = () => {
   return (
@@ -9,7 +10,8 @@ export const TryingSection = () => {
         of the advantages and disadvantages of using solar energy, you will be able to make the right decision for your needs
         without running into problems.
       </p>
-      <Button className='w-full sm:w-fit'>Get more info</Button>
+      <Link href="get-quote">
+        <Button className='w-full sm:w-fit'>Get more info</Button></Link>
     </section>
   );
 };

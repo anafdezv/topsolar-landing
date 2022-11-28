@@ -7,12 +7,12 @@ export const Button = ({
 }: {
   children: string;
   className?: string;
-  props?: React.ButtonHTMLAttributes<HTMLButtonElement>;
+  props?: React.DetailedHTMLProps<React.ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>;
 }): JSX.Element => {
   return (
     <button
       {...props}
-      className={`transition text-md md:text-lg ease-in-out rounded-lg bg-orange-600 px-5 py-2 text-sm font-medium text-white hover:bg-orange-700  focus:outline-none focus:ring ${className}`}
+      className={`cursor-pointer transition text-md md:text-lg ease-in-out rounded-lg bg-orange-600 px-5 py-2 text-sm font-medium text-white hover:bg-orange-700  focus:outline-none focus:ring ${className}`}
     >
       {children}
     </button>
