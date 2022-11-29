@@ -10,8 +10,8 @@ export const SummarySection = () => {
                 the long term.
                 <br />
                 <br />
-                Solar panels are a long-term investment, so to help you to make the decision, we've put together a guide with the
-                various advantages and disadvantages of using this renewable energy for your house, as well as an outlook of{' '}
+                Solar panels are a long-term investment, so to help you to make the decision, we&apos;ve put together a guide with the
+                various advantages and disadvantages of using this renewable energy for your house, as well as an outlook of
                 <strong>the future horizon of solar energy.</strong>
             </p>
             <Link href="get-quote">

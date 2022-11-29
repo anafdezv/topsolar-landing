@@ -23,8 +23,8 @@ export const FutureSection = () => {
             Solar energy is an interesting alternative in those places where conditions are favourable and, above all, in small
             buildings and for self-consumption. This is important if you are interested in building a private home and want to
             have an autonomous and sustainable way of generating energy. In Spain, the generation of solar energy has had ups
-            and downs due to contradictory legislation and the wrongly named "sun tax", but in the short term a rebound in use
-            is expected.
+            and downs due to contradictory legislation and the wrongly named &quot;sun tax&quot;, but in the short term a
+            rebound in use is expected.
           </p>
         )}
         {isOpen && (
@@ -33,9 +33,10 @@ export const FutureSection = () => {
           </button>
         )}
 
-        <Link href="get-quote">  
-        <Button className='w-full sm:w-fit md:ml-auto'>Get your quote</Button>
-        </Link></span>
+        <Link href='get-quote'>
+          <Button className='w-full sm:w-fit md:ml-auto'>Get your quote</Button>
+        </Link>
+      </span>
     </section>
   );
 };

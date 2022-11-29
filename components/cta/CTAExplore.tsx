@@ -104,8 +104,8 @@ export const CTAExplore = (): JSX.Element => {
             y2='28.1973'
             gradientUnits='userSpaceOnUse'
           >
-            <stop stop-color='#FED7AA' />
-            <stop offset='1' stop-color='#FF971F' />
+            <stop stopColor='#FED7AA' />
+            <stop offset='1' stopColor='#FF971F' />
           </linearGradient>
         </defs>
       </svg>
