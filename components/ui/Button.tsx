@@ -12,7 +12,7 @@ export const Button = ({
   return (
     <button
       {...props}
-      className={`cursor-pointer transition text-md md:text-lg ease-in-out rounded-lg bg-orange-600 px-5 py-2 text-sm font-medium text-white hover:bg-orange-700  focus:outline-none focus:ring ${className}`}
+      className={`cursor-pointer transition text-md md:text-lg ease-in-out rounded-lg bg-orange-700 px-5 py-2 text-sm font-medium text-white hover:bg-orange-800  focus:outline-none focus:ring ${className}`}
     >
       {children}
     </button>

@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        cta: "url('../public/images/ctabg.png')",
-        future: "url('../public/images/futurebg.png')",
+        cta: "url('../public/images/ctabg.webp')",
+        future: "url('../public/images/futurebg.webp')",
       },
     },
   },
