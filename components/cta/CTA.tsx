@@ -19,7 +19,15 @@ export const CTA = (): JSX.Element => {
         </Link>
       </section>
       <CTAExplore />
-      <Image src='/images/ctabg.webp' alt='Solar energy' fill className='absolute z-0' priority />
+      <Image
+        src='/images/ctabg.webp'
+        alt='Solar energy'
+        layout='fill'
+        objectPosition='bottom'
+        objectFit='cover'
+        className='absolute z-0'
+        priority
+      />
     </span>
   );
 };
