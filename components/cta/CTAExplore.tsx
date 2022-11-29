@@ -1,7 +1,7 @@
 export const CTAExplore = (): JSX.Element => {
   return (
-    <span className='hover:brightness-110 absolute bottom-4 flex items-center justify-center w-full '>
-      <svg viewBox='0 0 111 111' fill='none' xmlns='http://www.w3.org/2000/svg' className="w-20 sm:w-24 lg:w-32">
+    <span className='hover:brightness-110 absolute bottom-4 flex items-center justify-center w-full z-10'>
+      <svg viewBox='0 0 111 111' fill='none' xmlns='http://www.w3.org/2000/svg' className='w-20 sm:w-24 lg:w-32'>
         <rect width='111' height='110.431' rx='55.2157' fill='#374151' />
         <path
           d='M51.3303 73.5587C53.2437 76.8728 58.0271 76.8728 59.9405 73.5587L74.2012 48.8585C76.1146 45.5444 73.7229 41.4018 69.8961 41.4018H41.3747C37.548 41.4018 35.1562 45.5444 37.0696 48.8585L51.3303 73.5587Z'
