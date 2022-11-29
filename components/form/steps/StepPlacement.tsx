@@ -32,7 +32,7 @@ export const StepPlacement = ({
 
     return (
         <>
-            <TilesInput label="Choose where you want to install" name="placement" options={options} onChange={(e: string) => {
+            <TilesInput defaultValue={data.placement} label="Choose where you want to install" name="placement" options={options} onChange={(e: string) => {
                 setData({ ...data, placement: e })
             }} />
             <FormButtonNext disabled={!data.placement} onClick={onNext} />
